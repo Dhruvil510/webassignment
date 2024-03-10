@@ -12,12 +12,12 @@ function validateUserId($userId) {
     return !empty($userId);
 }
 
-function validateQuantity($quantity) {
-    return is_numeric($quantity) && $quantity > 0;
+function validateQuantity($quantityData) {
+    return is_numeric($quantityData) && $quantityData > 0;
 }
 
-function validateTotalAmount($totalAmount) {
-    return is_numeric($totalAmount) && $totalAmount > 0;
+function validateTotalAmount($totalAmountData) {
+    return is_numeric($totalAmountData) && $totalAmountData > 0;
 }
 
 //  Delete method for Delete all order data

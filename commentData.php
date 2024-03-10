@@ -13,7 +13,7 @@ function validateUserId($userId) {
 }
 
 function validateRatings($ratings) {
-    return is_numeric($ratings) && $rating >= 1 && $rating <= 5;
+    return is_numeric($ratings) && $rating >= 1 && $ratings <= 5;
 }
 
 function validateText($text) {
